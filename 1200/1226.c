@@ -15,10 +15,15 @@ int main(){
     }
     for (int i = 0; i < 6; i++)
     {
-        if (ans[i] == jihae[i])
+        for (int j = 0; j < 6; j++)
         {
-            cnt++;
+            if (ans[i] == jihae[j])
+            {
+                cnt++;
+            }
+            
         }
+        
         if (ans[6] == jihae[i])
         {
             bonus = 1;
