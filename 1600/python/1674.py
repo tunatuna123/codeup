@@ -1,0 +1,1 @@
+print("Bad" if sum(list(map(int,input())))%7==4 else "Good")
