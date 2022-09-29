@@ -1,6 +1,3 @@
-import re
-
-
 n=int(input())
 
 

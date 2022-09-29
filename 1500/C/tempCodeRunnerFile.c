@@ -1,1 +1,1 @@
-n
+long long int

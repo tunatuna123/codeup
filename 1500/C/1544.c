@@ -1,9 +1,9 @@
 #include <stdio.h>
- 
+
 int n;
- 
+
 void f(int);
- 
+
 int main()
 {
   scanf("%d", &n);
