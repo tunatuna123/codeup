@@ -4,5 +4,10 @@
         "bitset": "c",
         "chrono": "c",
         "unordered_map": "c"
-    }
+    },
+    "python.testing.pytestArgs": [
+        "1000"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
 }
