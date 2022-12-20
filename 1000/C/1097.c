@@ -5,9 +5,9 @@ int main(){
     for(i=1; i<=19; i++)
         for(j=1; j<=19; j++)
             scanf("%d", &a[i][j]);
-     
+    
     scanf("%d", &n); 
-     
+    
     for(i=1; i<=n; i++)
     {
         scanf("%d %d", &x, &y);
@@ -22,7 +22,7 @@ int main(){
             else a[j][y] = 0;
         }
     }
-     
+    
     for (i = 1; i <= 19; i++)
     {
         for (j = 1; j <= 19; j++)

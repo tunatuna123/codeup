@@ -1,5 +1,5 @@
 #include <stdio.h>
- 
+
 int main(){
     int h,w;
     int n;
@@ -16,7 +16,7 @@ int main(){
             {
                 board[x][y+i] = 1;
             }
-             
+            
         }
         else
         {
@@ -25,9 +25,9 @@ int main(){
                 board[x+i][y] = 1;
             }
         }
-         
+        
     }
-     
+    
     for (int i = 1; i <= h; i++)
     {
         for (int j = 1; j <= w; j++)
@@ -36,5 +36,5 @@ int main(){
         }
         printf("\n");
     }
-     
+    
 }
