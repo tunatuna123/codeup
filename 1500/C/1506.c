@@ -24,20 +24,19 @@ int main(){
         
     }
 
-    int i = n, j = 1, cnt = 0;
+    int i = 1, j = 1, cnt = 0;
     while (1)
     {
         cnt++;
         arr[i][j] = cnt;
-        if (L!=0 && R==0 && U==0 && D==0) {i--;}
+        if (L!=0 && R==0 && U!=0 && D==0) {i++;}
         else if(L!=0 && R==0 && U!=0 && D!=0) j++;
-        else if(L!=0 && R==0 && U!=0 && D==0) j++;
-        else if(L!=0 && R!=0 && U!=0 && D==0) i++;
-        else if(L==0 && R!=0 && U!=0 && D==0) i++;
-        else if(L==0 && R!=0 && U!=0 && D!=0) j--;
-        else if(L==0 && R!=0 && U==0 && D!=0) j--;
+        else if(L!=0 && R==0 && U==0 && D!=0) j++;
         else if(L!=0 && R!=0 && U==0 && D!=0) i--;
-        else if(L!=0 && R==0 && U==0 && D!=0) i--;
+        else if(L==0 && R!=0 && U==0 && D!=0) i--;
+        else if(L==0 && R!=0 && U!=0 && D!=0) j--;
+        else if(L==0 && R!=0 && U!=0 && D==0) j--;
+        else if(L!=0 && R!=0 && U!=0 && D==0) i++;
         else
         {
             break;
